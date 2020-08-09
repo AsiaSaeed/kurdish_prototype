@@ -1,0 +1,46 @@
+name: mainpage
+description: A new Flutter application.
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^4.0.0
+  pimp_my_button:
+      git:
+        url: git://github.com/Norbert515/pimp_my_button.git
+  folding_cell: "^0.1.2"
+  clay_containers: ^0.2.2
+  avatar_glow: ^1.1.0
+  responsive_screen: ^1.0.0
+  rounded_loading_button: ^1.0.0
+  flutter_rating_bar: ^3.0.1+1
+  slide_container: ^1.1.3
+  audioplayers: ^0.12.0
+  cupertino_icons: ^0.1.2
+
+  flutter_animator: ^2.0.6
+  flare_flutter: ^1.5.0
+  positioned_tap_detector: ^1.0.3
+  flutter_colorpicker: ^0.2.1
+
+dev_dependencies:
+
+  relative_layout:
+  flutter_test:
+    sdk: flutter
+  rxdart: ^0.21.0
+  painter2: any
+
+flutter:
+
+
+  uses-material-design: true
+  assets:
+    - assets/
+
